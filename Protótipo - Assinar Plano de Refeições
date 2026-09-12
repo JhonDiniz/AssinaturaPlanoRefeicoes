@@ -1,0 +1,114 @@
+# Descrição Textual do Processo
+
+O assinante informa seu número de celular para iniciar o processo de assinatura na plataforma Minha Refeição. O sistema envia um código de confirmação por SMS, e o assinante informa o código recebido para validação. Após a validação, o sistema apresenta os planos de assinatura disponíveis, cada um com sua quantidade de refeições, periodicidade de entrega e valor. O assinante escolhe um plano e confirma sua seleção.
+
+Em seguida, o sistema solicita as preferências alimentares do assinante, que pode escolher entre as opções tradicional, vegetariana ou sem lactose. Com base no plano e nas preferências informadas, o sistema exibe o cardápio da semana, começando pelos pratos principais disponíveis. O assinante seleciona os pratos desejados, que são adicionados ao pedido. O mesmo processo se repete para os acompanhamentos e para as sobremesas, cada um sendo escolhido pelo assinante e incorporado ao pedido.
+
+Depois de montado, o sistema apresenta o resumo do pedido completo. O assinante informa então o endereço de entrega, que é armazenado pelo sistema. Nesse momento, o status da assinatura muda para "Aguardando Pagamento", e o sistema apresenta o valor total e solicita os dados do cartão de crédito. O assinante informa os dados de pagamento, que são enviados à operadora de cartão de crédito para autorização.
+
+Se o pagamento for autorizado, o sistema registra o pagamento, altera o status da assinatura para "Ativa" e o status do pedido para "Aprovado", e gera um número de protocolo. Por fim, o sistema exibe uma mensagem de confirmação contendo o plano contratado, as refeições selecionadas, a periodicidade, o endereço, a previsão da primeira entrega e o número do protocolo, encerrando o caso de uso.
+
+# Lista de Classes Candidatas Identificadas
+
+1. Assinante
+2. Minha Refeição 
+3. Número de celular
+4. Sistema 
+5. Código de confirmação 
+6. SMS 
+7. Plano de assinatura 
+8. Quantidade de refeições 
+9. Periodicidade de entrega 
+10. Valor 
+11. Preferências alimentares
+12. Tradicional
+13. Vegetariana
+14. Lactose
+15. Cardápio da semana 
+16. Pratos principais
+17. Pedido
+18. Acompanhamentos 
+19. Sobremesas 
+20. Resumo do pedido 
+21. Endereço de entrega
+22. Status 
+23. Assinatura
+24. Dados do cartão de crédito 
+25. Dados de pagamento 
+26. Operadora de cartão de crédito
+27. Autorização 
+28. Pagamento
+29. Número de protocolo 
+30. Mensagem de confirmação
+31. Refeições selecionadas
+32. Previsão da primeira entrega 
+33. Caso de uso
+
+# Classes Candidatas Finais
+
+1. Assinante
+2. Assinatura
+3. Plano de Assinatura
+4. Cardápio da Semana
+5. Prato Principal
+6. Acompanhamento
+7. Sobremesa
+8. Pedido
+9. Preferência Alimentar
+10. Endereço de Entrega
+11. Pagamento
+12. Operadora de Cartão de Crédito
+13. Código de Confirmação (opcional, dependendo do nível de detalhe pedido)
+
+# Protótipo - Fluxo Principal (Caminho Feliz)
+
+1. Login - Número de Celular
+[imagem da tela]
+> O Assinante informa seu número de celular para iniciar o processo de assinatura.
+
+2. Validação por SMS
+[imagem da tela]
+> O Sistema envia um código de confirmação por SMS. O Assinante informa o código recebido e o Sistema o valida.
+
+3. Seleção do Plano de Assinatura
+[imagem da tela]
+> O Sistema apresenta os planos de assinatura disponíveis, com quantidade de refeições, periodicidade de entrega e valor. O Assinante seleciona um plano e confirma.
+
+4. Preferências Alimentares
+[imagem da tela]
+> O Sistema solicita que o Assinante informe suas preferências alimentares (tradicional, vegetariana ou sem lactose). O Sistema armazena a preferência escolhida.
+
+5. Seleção de Pratos Principais
+[imagem da tela]
+> O Sistema apresenta os pratos principais disponíveis no cardápio, considerando o plano e as preferências alimentares do Assinante. O Assinante seleciona os pratos desejados, que são adicionados ao pedido.
+
+6. Seleção de Acompanhamentos
+[imagem da tela]
+> O Sistema apresenta os acompanhamentos disponíveis. O Assinante seleciona os acompanhamentos desejados, que são adicionados ao pedido.
+
+7. Seleção de Sobremesas
+[imagem da tela]
+> O Sistema apresenta as sobremesas disponíveis. O Assinante seleciona as sobremesas desejadas, que são adicionadas ao pedido.
+
+8. Resumo do Pedido
+[imagem da tela]
+> O Sistema apresenta a composição completa do pedido ao Assinante, reunindo pratos principais, acompanhamentos e sobremesas selecionados.
+
+9. Endereço de Entrega
+[imagem da tela]
+> O Sistema solicita o endereço de entrega. O Assinante informa e confirma o endereço, que é armazenado pelo Sistema.
+
+10. Pagamento
+[imagem da tela]
+> O Sistema altera o status da assinatura para "Aguardando Pagamento", apresenta o valor total e solicita os dados do cartão de crédito. O Assinante informa os dados de pagamento, que são enviados para autorização junto à Operadora de Cartão de Crédito.
+
+11. Confirmação da Assinatura
+[imagem da tela]
+> Após o pagamento ser autorizado, o Sistema registra o pagamento, altera o status da assinatura para "Ativa" e do pedido para "Aprovado", gera um número de protocolo e apresenta uma mensagem de confirmação com o plano contratado, as refeições selecionadas, a periodicidade, o endereço de entrega, a previsão da primeira entrega e o número do protocolo.
+
+# Vídeo Explicativo
+[link do vídeo]
+
+# Divisão de Responsabilidades
+- [Nome 1]: telas de X a Y, gravação/edição do vídeo
+- [Nome 2]: telas de Y a Z, montagem da Wiki
