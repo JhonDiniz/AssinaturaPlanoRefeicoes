@@ -109,13 +109,10 @@ Previsão de Entrega
 [imagem da tela]
 > Após o pagamento ser autorizado, o Sistema registra o pagamento, altera o status da assinatura para "Ativa" e do pedido para "Aprovado", gera um número de protocolo e apresenta uma mensagem de confirmação com o plano contratado, as refeições selecionadas, a periodicidade, o endereço de entrega, a previsão da primeira entrega e o número do protocolo.
 
-# Vídeo Explicativo
-[link do vídeo]
-
 # Divisão de Responsabilidades
 - Jhonatan Lopes Diniz - RA: 10738096
       montagem da lista de classes candidatas identificadas
       montagem da Wiki
-- Evandro Recalde Maimone - RA:  
+- Evandro Recalde Maimone - RA: 10739770
       montagem das telas do caminho feliz (protótipo)
       edição do vídeo explicativo
