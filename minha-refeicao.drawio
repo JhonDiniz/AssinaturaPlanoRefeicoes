@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="minha-refeicao" name="Página-1">
+    <mxGraphModel dx="1585" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="assinante" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;Assinante&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ nome&lt;br&gt;+ celular&lt;br&gt;+ preferenciaAlimentar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="150" x="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="assinatura" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;Assinatura&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ status&lt;br&gt;+ protocolo&lt;br&gt;+ previsaoPrimeiraEntrega&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="180" x="472.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="plano" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;PlanoAssinatura&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ nome&lt;br&gt;+ quantidadeRefeicoes&lt;br&gt;+ periodicidade&lt;br&gt;+ valor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="180" x="800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="endereco" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;EnderecoEntrega&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ cep&lt;br&gt;+ rua&lt;br&gt;+ numero&lt;br&gt;+ complemento&lt;br&gt;+ bairro&lt;br&gt;+ cidade&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="150" x="170" y="332.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;Pedido&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ status&lt;br&gt;+ dataCriacao&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="105" x="505" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pagamento" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;Pagamento&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ valor&lt;br&gt;+ status&lt;br&gt;+ dataPagamento&lt;br&gt;+ numeroCartao&lt;br&gt;+ nomeImpressoCartao&lt;br&gt;+ validadeCartao&lt;br&gt;+ cvv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="195" width="190" x="800" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="operadora" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;OperadoraCartaoCredito&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ nome&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="210" x="1280" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="cardapio" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;Cardapio&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ dataAtualizacao&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="150" x="160" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="item" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=8;strokeWidth=1;" value="&lt;b&gt;ItemCardapio&lt;/b&gt;&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;+ nome&lt;br&gt;+ calorias&lt;br&gt;+ categoria&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="140" x="492.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="prato" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;strokeWidth=1;" value="&lt;b&gt;PratoPrincipal&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="230" x="180" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="acomp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;strokeWidth=1;" value="&lt;b&gt;Acompanhamento&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="230" x="447.5" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="sobremesa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;strokeWidth=1;" value="&lt;b&gt;Sobremesa&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="230" x="780" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="assinante" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" target="assinatura" value="possui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="315" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e1b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="375" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="assinatura" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" target="plano" value="referencia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry height="25" width="50" x="710" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e2b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="765" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="assinatura" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=diamondThin;" target="pedido" value="gera">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="535" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="e3b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="535" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="pedido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=diamondThin;" target="endereco" value="entrega em">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="*" vertex="1">
+          <mxGeometry height="25" width="30" x="340" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="e4b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="390" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="pedido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=diamondThin;" target="pagamento" value="é quitado por">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="720" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="e5b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="765" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="pagamento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" target="operadora" value="autorizado por">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry height="25" width="50" x="1150" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e6b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="1245" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="pedido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=diamondThin;" target="item" value="seleciona">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="535" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="e7b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1..*" vertex="1">
+          <mxGeometry height="25" width="45" x="535" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="cardapio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=diamondThin;" target="item" value="disponibiliza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8a" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry height="25" width="30" x="315" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="e8b" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
+          <mxGeometry height="25" width="50" x="365" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" edge="1" parent="1" source="prato" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="item">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" edge="1" parent="1" source="acomp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="item">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" edge="1" parent="1" source="sobremesa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="item">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;" value="&lt;b&gt;Diagrama de Classes de Domínio - &quot;Minha Refeição&quot; (Assinar Plano de Refeições)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="35" width="850" x="300" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacing=10;strokeWidth=1;" value="&lt;b&gt;Legenda&lt;/b&gt;&lt;br&gt;&lt;br&gt;◆ Composição&lt;br&gt;◇ Agregação&lt;br&gt;▷ Herança&lt;br&gt;— Associação simples" vertex="1">
+          <mxGeometry height="125" width="360" x="1220" y="725" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
